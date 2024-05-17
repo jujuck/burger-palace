@@ -11,9 +11,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     loader: () =>
-      axios
-        .get("https://jujuck.github.io/api/burgers.json")
-        .then((res) => res.data),
+      axios.get("http://localhost:3310/api/burgers").then((res) => res.data),
   },
 ]);
 
