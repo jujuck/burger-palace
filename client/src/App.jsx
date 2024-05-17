@@ -1,4 +1,7 @@
 import { useLoaderData } from "react-router-dom";
+
+import BurgerCard from "./components/BurgerCard";
+
 import "./App.css";
 
 function App() {
@@ -14,6 +17,7 @@ function App() {
         {burgers.map((burger) => (
           <div key={burger.id}>
             <h2>{burger.name}</h2>
+            <BurgerCard />
           </div>
         ))}
       </section>
