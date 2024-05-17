@@ -15,10 +15,7 @@ function App() {
       <h1>My Burger Palace</h1>
       <section>
         {burgers.map((burger) => (
-          <div key={burger.id}>
-            <h2>{burger.name}</h2>
-            <BurgerCard />
-          </div>
+          <BurgerCard key={burger.id} burger={burger} />
         ))}
       </section>
     </main>
