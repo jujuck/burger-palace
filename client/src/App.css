@@ -12,6 +12,17 @@ h1 {
   text-align: center;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    margin: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+  }
+}
+
 .container {
   margin: 5%;
 }
