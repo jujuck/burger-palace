@@ -53,7 +53,7 @@ const burgers = [
     img: "southwest_chipotle_burger.jpg",
     price: 12.99,
     description:
-      "Spicy burger with chipotle mayo, pepper jack cheese, jalapeños, lettuce, and tomato.",
+      "spicy burger with chipotle mayo, pepper jack cheese, jalapeños, lettuce, and tomato.",
     list_of_ingredients:
       "Beef patty, pepper jack cheese, chipotle mayo, jalapeños, lettuce, tomato, burger bun",
     spicy: true,
@@ -89,7 +89,7 @@ const burgers = [
     img: "jalapeno_popper_burger.jpg",
     price: 11.99,
     description:
-      "Spicy and indulgent burger with jalapeño poppers, cream cheese, lettuce, and chipotle aioli.",
+      "spicy and indulgent burger with jalapeño poppers, cream cheese, lettuce, and chipotle aioli.",
     list_of_ingredients:
       "Beef patty, cream cheese, jalapeño poppers, lettuce, chipotle aioli, burger bun",
     spicy: true,
@@ -173,7 +173,7 @@ const burgers = [
     img: "cajun_turkey_burger.jpg",
     price: 10.99,
     description:
-      "Spicy and flavorful turkey burger seasoned with Cajun spices, topped with pepper jack cheese, lettuce, and chipotle mayo.",
+      "spicy and flavorful turkey burger seasoned with Cajun spices, topped with pepper jack cheese, lettuce, and chipotle mayo.",
     list_of_ingredients:
       "Turkey patty, pepper jack cheese, Cajun spices, lettuce, chipotle mayo, burger bun",
     spicy: true,
@@ -217,7 +217,7 @@ const burgers = [
   },
   {
     id: 19,
-    name: "Spicy Sriracha Burger",
+    name: "spicy Sriracha Burger",
     img: "spicy_sriracha_burger.jpg",
     price: 11.99,
     description:
@@ -317,7 +317,7 @@ const burgers = [
     img: "fiesta_black_bean_burger.jpg",
     price: 10.99,
     description:
-      "Spicy black bean burger with salsa, pepper jack cheese, lettuce, and avocado.",
+      "spicy black bean burger with salsa, pepper jack cheese, lettuce, and avocado.",
     list_of_ingredients:
       "Black bean patty, salsa, pepper jack cheese, lettuce, avocado, burger bun",
     spicy: true,
@@ -365,7 +365,7 @@ const burgers = [
     img: "jalapeno_guacamole_burger.jpg",
     price: 12.99,
     description:
-      "Spicy and creamy burger with jalapeño guacamole, pepper jack cheese, lettuce, and tomato.",
+      "spicy and creamy burger with jalapeño guacamole, pepper jack cheese, lettuce, and tomato.",
     list_of_ingredients:
       "Beef patty, pepper jack cheese, jalapeño guacamole, lettuce, tomato, burger bun",
     spicy: true,
@@ -473,7 +473,7 @@ const burgers = [
     img: "chipotle_turkey_burger.jpg",
     price: 11.99,
     description:
-      "Spicy and flavorful turkey burger with chipotle mayo, pepper jack cheese, lettuce, and tomato.",
+      "spicy and flavorful turkey burger with chipotle mayo, pepper jack cheese, lettuce, and tomato.",
     list_of_ingredients:
       "Turkey patty, chipotle mayo, pepper jack cheese, lettuce, tomato, burger bun",
     spicy: true,
@@ -509,7 +509,7 @@ const burgers = [
     img: "buffalo_blue_chicken_burger.jpg",
     price: 12.99,
     description:
-      "Spicy chicken burger with buffalo sauce, blue cheese crumbles, lettuce, and tomato.",
+      "spicy chicken burger with buffalo sauce, blue cheese crumbles, lettuce, and tomato.",
     list_of_ingredients:
       "Chicken patty, buffalo sauce, blue cheese crumbles, lettuce, tomato, burger bun",
     spicy: true,

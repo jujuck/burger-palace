@@ -1,6 +1,6 @@
 const express = require("express");
 
-const burgers = require("../database/data");
+const client = require("../database/client");
 
 const router = express.Router();
 
@@ -12,7 +12,17 @@ const router = express.Router();
 
 // Route to get a list of items
 router.get("/burgers", (req, res) => {
-  res.status(200).json(burgers);
+  client.query("SELECT * FROM burger limit 10").then((burgers) => {
+    res.status(200).json(burgers[0]);
+  });
+});
+
+router.get("/burgers/:id", (req, res) => {
+  client
+    .query("SELECT * FROM burger where id = ?", [req.params.id])
+    .then((burgers) => {
+      res.status(200).json(burgers[0][0]);
+    });
 });
 
 /* ************************************************************************* */
