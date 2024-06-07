@@ -8,7 +8,7 @@ import App from "./App";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/accueil",
     element: <App />,
     loader: () =>
       axios
